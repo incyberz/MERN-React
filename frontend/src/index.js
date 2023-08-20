@@ -2,15 +2,19 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./materialize.min.css";
-// import "./materialize.min.js";
 import App from "./App";
-// import { WorkoutsContextProvider } from "./context/WorkoutContext";
+
+import { createStore } from "redux";
+import rootReducer from "./store/reducers/rootReducer";
+import { Provider } from "react-redux";
+
+const store = createStore(rootReducer);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <WorkoutsContextProvider> */}
-    <App />
-    {/* </WorkoutsContextProvider> */}
+    <Provider>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
