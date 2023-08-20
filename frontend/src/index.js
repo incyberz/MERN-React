@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import "./materialize.min.css";
+// import "./materialize.min.js";
 import App from "./App";
 // import { WorkoutsContextProvider } from "./context/WorkoutContext";
 
