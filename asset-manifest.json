@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactization/static/css/main.07832baa.css",
+    "main.js": "/reactization/static/js/main.0e8c7067.js",
+    "index.html": "/reactization/index.html",
+    "main.07832baa.css.map": "/reactization/static/css/main.07832baa.css.map",
+    "main.0e8c7067.js.map": "/reactization/static/js/main.0e8c7067.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07832baa.css",
+    "static/js/main.0e8c7067.js"
+  ]
+}
